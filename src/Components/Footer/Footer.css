@@ -1,0 +1,26 @@
+footer{
+    min-height: 50vh;
+    background-color: #23262a;
+    color: #fff;
+    padding: 1em;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer figure{
+    max-width: 14em;
+    width: 100%;
+}
+
+footer img{
+    width: 100%;
+}
+
+@media (min-width: 400px){
+    footer figure{
+        max-width: 14em;
+    }
+}

@@ -1,0 +1,84 @@
+header{
+    box-shadow: 0 4px 12px rgb(0 0 0 / 10%);
+    width: 100%;
+    background-color: #fafafa;
+    position: fixed;
+    height: 100px;
+    z-index: 97;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img{
+    width: 100%;
+}
+
+nav{
+    color: var(--grey);  
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+#nombre{
+    width: 100%;
+    justify-content: center;
+}
+
+#nombre figure{
+    width: 100%;
+    margin: 0;
+    max-width: 12em;
+}
+
+
+#nombre h3{
+    color: #fff;
+}
+
+#rigth-side{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex: 1;
+}
+
+nav ul{ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;  
+}
+
+nav li{
+    font-size: 16px;
+    padding: 0 0.5em;
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+#burger-article article{
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+@media (min-width: 400px){
+    #nombre figure{
+        max-width: 17em;
+    }
+}

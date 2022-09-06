@@ -1,0 +1,42 @@
+
+#flex-botones{
+    width: 100%;
+    margin: 0 2em;
+}
+
+#rigth, #left{
+    position: fixed;
+    top: 8em;
+    padding: 0.5em 2em;
+    font-size: 15px;
+    background-image: url(../Characters/img/background.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    color: #fff;
+    text-shadow: var(--text-shadow)
+}
+
+#rigth{
+    right: 1em;
+}
+
+#left{
+    left: 1em;
+}
+
+#flex-botones button{
+    padding: 0.5em 1em;
+    width: 9em;
+    font-size: 20px;
+    background-image: url(../Characters/img/background.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    text-shadow: var(--text-shadow)
+}
+
+#flex-botones button:hover{
+    cursor: pointer;
+}
