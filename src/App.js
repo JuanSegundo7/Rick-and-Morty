@@ -6,6 +6,11 @@ import React, {useState} from 'react';
 
 function App() {
   const [page, setPage] = useState(1)
+
+  if(page === 0){
+    setPage(1)
+  }
+
   return (
     <Router>
       <Header page={page} setPage={setPage}/>
