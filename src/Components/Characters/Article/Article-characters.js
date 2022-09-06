@@ -6,8 +6,8 @@ import {Link} from "react-router-dom"
 
 const ArticleCharacters = (props) => {
     return (
-        <Link to={`/character/${props.id}`}>
-            <article id="characters">
+        <article id="characters">
+                <Link to={`/character/${props.id}`}>
                 <figure>
                     <img src={props.image}></img>
                 </figure>
@@ -17,8 +17,8 @@ const ArticleCharacters = (props) => {
                     <p>{props.status}</p>
                 </article>
                 <p>{props.specie}</p>
+                </Link>
             </article>
-        </Link>
     );
 }
 
