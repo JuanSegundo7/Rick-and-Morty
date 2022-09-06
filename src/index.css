@@ -49,12 +49,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-main{
-  background-image: url(./Components/Home/imgs/r&m1.jpg);
-  background-repeat: no-repeat;
-  background-size: 150% 100%;
-}
-
 .button{
   padding: 1em;
   color: #fff;
@@ -104,6 +98,9 @@ main{
   min-height: 100vh;
   box-sizing: border-box;
   text-align: center;
+  background-image: url(./Components/Home/imgs/r&m1.jpg);
+  background-repeat: no-repeat;
+  background-size: 300% 100%;
 }
 
 section{
@@ -117,6 +114,12 @@ ul{
 
 #Contact button:hover, #mobile-nav a, #flex-navbar a:hover, #logos-footer svg:hover, #Service article, #sun:hover, nav li, #nombre figure:hover, #wrapper-x svg:hover, #Juanse-left article:hover, .button:hover, #logos svg:hover, .flex-buttons button:hover{
   cursor: pointer;
+}
+
+@media(min-width: 400px){
+    main{
+      background-size: 120% 100%;
+    }
 }
 
 @media (min-width: 768px) {
